@@ -398,7 +398,24 @@
         "needlimitSizeForSurface": true,
         "limitWidthForSurface": 3840,
         "limitHeightForSurface": 2160,
-        "app_enable_rio": true
+        "app_enable_rio": true,
+        "app_disable_fb_activity": [
+            "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.qrcode.contactqr.ContactQrActivity",
+            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity"
+        ],
+        "app_enable_fb_activity": [
+            ""
+        ]
+    },
+    "com.microsoft.teams": {
+        "app_enable_fb_activity": [
+            "com.microsoft.skype.teams.views.activities.PreJoinActivity",
+            "com.microsoft.skype.teams.views.activities.InCallActivity"
+        ],
+        "app_disable_fb_activity": [
+            "com.microsoft.office.lens.lenscommon.ui.LensActivity"
+        ]
     },
     "com.snapchat.android": {
         "needlimitpreviewsize": true,
