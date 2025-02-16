@@ -2350,7 +2350,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
-    vendor.oplus.hardware.commondcs-V1-ndk \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.performance-V1-ndk \
@@ -2459,7 +2458,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cameraextension_aidl.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_cwb.xml \
-    manifest_oplus_fingerprint.xml \
+    manifest_oplus_fingerprint_aidl_v2.xml \
     manifest_oplus_sendextcamcmd.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_performance_aidl.xml \
