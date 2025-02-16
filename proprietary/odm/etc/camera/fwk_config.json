@@ -47,6 +47,7 @@
         "feature_sound_enable": true,
         "feature_flash_enable": true,
         "feature_fps_enable": true,
+        "feature_explorer_enable": true,
         "feature_rio_enable": true,
         "feature_multicamera_enable": true,
         "feature_enable_fwk_timer": false,
@@ -244,6 +245,7 @@
         "requesttimeout": 10,
         "wechat_fwkOmoji_support": true,
         "app_disable_fb_evict": true,
+        "supportExplorerCameraMask": 3,
         "scan_zoom_value": 1.26,
         "scan_activity_name": "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
         "app_disable_fb_activity": [

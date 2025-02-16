@@ -362,6 +362,73 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/libiceainr_model.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/libiceainr_model.dlc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/DL_B_Inception.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_B_Inception.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/DL_C_R3_80.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_C_R3_80.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Delta400.3dl.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Emerald.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Martin.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Radiance.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Serenity.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Texture-70.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/White.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji-nc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-nc.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji-proNegHi.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-proNegHi.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/fuji_cc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji_cc.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gourmet.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-beach.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-desert.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_1.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_3.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/rJ5g5vPWG \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/red-red.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
@@ -677,6 +744,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.odm.camera.provider.override.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.odm.camera.provider.override.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/occe_create.rc:$(TARGET_COPY_OUT_ODM)/etc/init/occe_create.rc \
@@ -685,6 +753,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/permissions/android.hardware.context_hub.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.context_hub.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
@@ -771,7 +841,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
@@ -806,7 +875,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile7.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
@@ -816,6 +884,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/DPU960.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU960.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json \
@@ -841,6 +910,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
@@ -855,7 +925,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
@@ -872,7 +941,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
@@ -888,11 +956,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -935,6 +1001,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/powerhint.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
@@ -949,7 +1016,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/qconfigpresets.json:$(TARGET_COPY_OUT_VENDOR)/etc/qconfigpresets.json \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
@@ -963,6 +1029,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/10_version_update_ecc_table.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/11_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/11_version_update_ecc_table.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/12_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/12_version_update_ecc_table.sql \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/13_version_update_ecc_table.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql \
@@ -978,12 +1045,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
@@ -1071,7 +1139,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
@@ -1127,8 +1194,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/oneplus/sm8550-common/proprietary/vendor/firmware/gen70e00_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70e00_sqe.fw \
+    vendor/oneplus/sm8550-common/proprietary/vendor/firmware/gen70e00_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70e00_zap.mbn \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
+    vendor/oneplus/sm8550-common/proprietary/vendor/firmware/gmu_gen70e00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70e00.bin \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tof8801_firmware.bin \
+    vendor/oneplus/sm8550-common/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
+    vendor/oneplus/sm8550-common/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/oneplus/sm8550-common/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
@@ -1142,16 +1214,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_t.bin \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
-    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_w.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_w.bin \
-    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/imx709.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx709.pb
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_w.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_w.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0-impl \
+    vendor.qti.diaghal-V1-ndk \
     btaudio_offload_if \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.gt24p64b_imx688 \
     com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.truly_cmb433 \
+    com.qti.flash.lm3644 \
     com.qti.sensor.imx766 \
     com.arcsoft.node.eisv2 \
     com.arcsoft.node.smooth_transition \
@@ -1280,7 +1352,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.offline \
     com.qti.chi.override \
-    vendor.qti.esepowermanager@1.1-impl \
+    vendor.qti.esepowermanager@1.1-impl_vendor \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -1296,6 +1368,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-impl \
     vulkan.adreno \
     lib-imscommon \
+    lib-imsdcservice \
     lib-imsdpl \
     lib-imsqimf \
     lib-imsrcsservice \
@@ -1313,7 +1386,6 @@ PRODUCT_PACKAGES += \
     libFileMux_proprietary \
     libFlacSwDec \
     libGPMTEEC_vendor \
-    libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
@@ -1321,7 +1393,6 @@ PRODUCT_PACKAGES += \
     libPanelChaplin \
     libPeripheralStateUtils \
     libQSEEComAPI \
-    libQTEEConnector_vendor \
     libQcelp13SwCodec \
     libQnnCpu_vendor \
     libQnnHtp_vendor \
@@ -1351,9 +1422,6 @@ PRODUCT_PACKAGES += \
     libar-gpr \
     libar-gsl \
     libar-pal \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libats \
     libaudio_log_utils \
     libbacklight-calib \
@@ -1424,14 +1492,12 @@ PRODUCT_PACKAGES += \
     libembmsservice \
     libengineplugin \
     libesepmconfig \
-    libesesbprovision \
     libeva \
     libeva_util \
     libfastcvdsp_stub \
     libfastcvopt \
+    libfeutils \
     libgame_enhance \
-    libgarden \
-    libgarden_haltests_e2e \
     libgdtap \
     libgeofencing \
     libgnss \
@@ -1476,8 +1542,12 @@ PRODUCT_PACKAGES += \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
+    libloc_base_util \
     libloc_core \
     libloc_eng_hub \
+    libloc_mq_client \
+    libloc_qwes_iface \
+    libloc_ril_client \
     libloc_socket \
     libloc_util \
     liblocation_api \
@@ -1489,6 +1559,7 @@ PRODUCT_PACKAGES += \
     liblocationservice_glue \
     liblocdiagiface \
     liblowi_client \
+    liblowi_common \
     liblowi_wifihal \
     liblqe \
     liblx-ar_util \
@@ -1507,9 +1578,10 @@ PRODUCT_PACKAGES += \
     libmidasserviceintf_aidl \
     libminkdescriptor \
     libminksocket_vendor \
+    libmlremosaicsnapshot \
     libmm-hdcpmgr \
     libmmcamera_bestats \
-    libmmcamera_cac3 \
+    libmmcamera_cac \
     libmmcamera_lscv35 \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
@@ -1563,7 +1635,6 @@ PRODUCT_PACKAGES += \
     libqc2audio_utils \
     libqc2colorconvertfilter \
     libqc2filter \
-    libqc2vppfilter \
     libqcbor \
     libqcc_file_agent \
     libqcc_sdk \
@@ -1582,7 +1653,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_streaminteg_filter \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqconfigclient \
     libqcrilDataModule \
     libqcrilNr \
     libqcrilNrCellInfoModule \
@@ -1710,13 +1780,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvmfilexfer \
     libvmmem \
-    libvppclient \
-    libvppcommon \
-    libvpphcp \
-    libvpphvx \
-    libvppimmotion \
-    libvpplibrary \
-    libvpptestutils \
     libvui_dmgr \
     libvui_dmgr_client \
     libwfdcodecv4l2_proprietary \
@@ -1744,8 +1807,6 @@ PRODUCT_PACKAGES += \
     libwvaidl \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     qcrilInterfaces \
     qcrilMarshal \
     qcrilNrQmiModule \
@@ -1758,6 +1819,7 @@ PRODUCT_PACKAGES += \
     qcrilNr_aidl_IRadioSim \
     qcrilNr_aidl_IRadioVoice \
     qcrilNr_aidl_common \
+    qcril_client \
     qcrild_libqcrilnr \
     qcrild_libqcrilnrutils \
     qti.video.utils.videobufferlayout \
@@ -1786,13 +1848,12 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cameraextension-V1-ndk \
     vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.commondcs-V1-ndk_platform \
-    vendor.oplus.hardware.communicationcenter-V1-ndk_vendor \
+    vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.performance-V1-ndk_vendor \
     vendor.oplus.hardware.radio-V2-ndk_platform \
-    vendor.oplus.hardware.sendextcamcmd-V1-ndk_vendor \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk_vendor \
+    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.pixelworks.hardware.display@1.0_vendor \
     vendor.pixelworks.hardware.display@1.1_vendor \
     vendor.pixelworks.hardware.display@1.2_vendor \
@@ -1810,9 +1871,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0_vendor \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
-    vendor.qti.gnss-V2-ndk \
+    vendor.qti.esepowermanager@1.0_vendor \
+    vendor.qti.esepowermanager@1.1_vendor \
+    vendor.qti.gnss-V5-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
@@ -1865,15 +1926,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
     vendor.qti.hardware.qccvndhal@1.0_vendor \
-    vendor.qti.hardware.qconfig@1.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
-    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd-V1-ndk \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.ims-V9-ndk \
+    vendor.qti.hardware.radio.ims-V12-ndk \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
     vendor.qti.hardware.radio.ims@1.2 \
@@ -1891,7 +1950,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.lpa@1.3 \
     vendor.qti.hardware.radio.qcrilhook-V1-ndk \
     vendor.qti.hardware.radio.qcrilhook@1.0 \
-    vendor.qti.hardware.radio.qtiradio-V8-ndk \
+    vendor.qti.hardware.radio.qtiradio-V9-ndk \
     vendor.qti.hardware.radio.qtiradio@1.0 \
     vendor.qti.hardware.radio.qtiradio@2.0 \
     vendor.qti.hardware.radio.qtiradio@2.1 \
@@ -1900,7 +1959,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.qtiradio@2.4 \
     vendor.qti.hardware.radio.qtiradio@2.5 \
     vendor.qti.hardware.radio.qtiradio@2.6 \
-    vendor.qti.hardware.radio.qtiradioconfig-V2-ndk \
+    vendor.qti.hardware.radio.qtiradioconfig-V3-ndk \
     vendor.qti.hardware.radio.uim@1.0 \
     vendor.qti.hardware.radio.uim@1.1 \
     vendor.qti.hardware.radio.uim@1.2 \
@@ -1911,10 +1970,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.ims.callcapability@1.0 \
@@ -2002,8 +2057,6 @@ PRODUCT_PACKAGES += \
     chre_qsh_shim \
     libQ6MSFR_manager_skel \
     libQnnHtpV73Skel_vendor \
-    libVppAisQnnHtp \
-    libVppFrcQnnHtp \
     libadsp_jpege_skel \
     libapn_dsp_skel \
     libbitml_nsp_skel \
@@ -2011,15 +2064,9 @@ PRODUCT_PACKAGES += \
     libdsp_streamer_binning \
     libevadsp_3_0 \
     libhdr_skel \
+    libhme_dsp_skel \
     libmctfengine_skel \
-    libmobilenet_dsp_frc \
-    libmobilenet_dsp_frc_networks \
     libosie_skel \
-    libvpp_ais \
-    libvpp_ais_networks \
-    libvpp_frc \
-    libvpp_svc_skel \
-    libvpp_vqa_networks \
     nearby.napp_header \
     nearby \
     com.qualcomm.qti.dpm.api@1.0 \
@@ -2027,6 +2074,7 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
+    libOpenCL_system \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
@@ -2069,13 +2117,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk \
     libQnnHtp.aiboost \
     libQnnHtpPrepare.aiboost \
     libQnnHtpV73Stub.aiboost \
     libQnnSystem.aiboost \
+    android.hardware.secure_element@1.0-impl \
     com.qti.sensor.imx581 \
     com.qti.sensor.imx709 \
     com.qti.sensor.imx800 \
@@ -2093,6 +2144,7 @@ PRODUCT_PACKAGES += \
     com.oplus.stats.pdlib \
     camera.oemlayer \
     vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
+    vendor.qti.esepowermanager@1.1-impl \
     lib-virtual-modem-protos \
     lib2DSlender \
     libAF \
@@ -2172,8 +2224,6 @@ PRODUCT_PACKAGES += \
     libaecCustom \
     libaecCustomParamParser \
     libafCustomParamParser \
-    libaiboost \
-    libaiboost_hexagon \
     libaiboost_qnn_sr \
     libaiboost_sr \
     libaiboost_te \
@@ -2235,6 +2285,7 @@ PRODUCT_PACKAGES += \
     libcreatebin \
     libcustomer_halalgovisual \
     libcvface_api \
+    libdlrmsc \
     libdmtp-protos-lite \
     libdmtp \
     libdmtpclient \
@@ -2242,6 +2293,7 @@ PRODUCT_PACKAGES += \
     libdualcam_video_optical_zoom \
     libeffect_custom \
     libexif-jpeg-aps \
+    libextendfile \
     libextensionlayer \
     libhwconfigurationutil \
     libhyperlapse \
@@ -2250,8 +2302,10 @@ PRODUCT_PACKAGES += \
     liblvacfs_wrapper \
     libml_util \
     libmpbase \
+    libmsnativefilter \
     libnpu \
     libolc_vnd \
+    liboplus-uah-client \
     liboplus_service \
     liboplusblur_capture_api \
     liboptical_zoom_dc \
@@ -2270,13 +2324,17 @@ PRODUCT_PACKAGES += \
     libpwirissoft \
     libpwsoftirisPCS \
     libremosaic_wrapper \
+    libremosaiclib_s5k3p9 \
+    libremosaiclib_s5kjn1 \
     librmsclib1 \
     libsaveshaderbin \
+    libsdk_sr \
     libsharebuffer \
     libsharebuffer_impl \
     libsnapdragoncolor-pxlw \
     libsnpe_loader \
     libsnpeml \
+    libssd_det \
     libstface_fd_api \
     libstfd_mobile_api \
     libtfa98xx \
@@ -2288,20 +2346,26 @@ PRODUCT_PACKAGES += \
     libyuv2 \
     libyuvwrapper \
     libziparchive_odm \
+    vendor.oplus.hardware.camera_rfi-V1-ndk \
+    vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.commondcs-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V1-ndk \
-    vendor.oplus.hardware.olc2-V1-ndk \
+    vendor.oplus.hardware.communicationcenter-V2-ndk \
+    vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.performance-V1-ndk \
-    vendor.oplus.hardware.sendextcamcmd-V1-ndk \
+    vendor.oplus.hardware.performance-V2-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
+    vendor.oplus.hardware.sendextcamcmd-V2-ndk \
+    vendor.oplus.hardware.stability.oplus_project-V2-ndk \
+    vendor.oplus.hardware.urcc-V1-ndk \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
     libQnnHtpV73Skel.aiboost \
     libaiboostubwc_skel.aiboost \
     capi_v3_oprec \
@@ -2335,8 +2399,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     uimgbaservice \
     EuiccGoogle \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     ImsRcsService \
     QCC \
     QtiTelephonyService \
@@ -2369,11 +2433,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
+    android.hardware.radio.data.xml \
     android.hardware.security.keymint-service-qti.xml \
     bttpi-saidl.xml \
     c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
     deviceinfo-saidl.xml \
+    imsdcservice-saidl.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     qms-saidl.xml \
     vendor.qti.camera.aon-impl-1.3.xml \
@@ -2384,13 +2450,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits-service.xml \
     vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.power.powermodule.xml \
-    vendor.qti.hardware.qconfig@1.0-service.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
-    vendor.qti.hardware.vpp@2.0-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     android.hardware.contexthub-service.qmi.xml \
     device_manifest_communication_center_aidl.xml \
+    manifest_oplus_camera_rfi.xml \
     manifest_oplus_cameraextension_aidl.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_cwb.xml \
@@ -2398,6 +2463,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_sendextcamcmd.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_performance_aidl.xml \
+    manifest_secure_element.xml \
     vendor.pixelworks.hardware.display@1.2.xml \
     vendor.pixelworks.hardware.feature.irisfeature-service.xml \
     ATFWD-daemon \
@@ -2413,18 +2479,15 @@ PRODUCT_PACKAGES += \
     embmsslServer \
     engine-service \
     feature_enabler_client \
-    garden_app \
     android.hardware.bluetooth@1.1-service-qti \
     android.hardware.contexthub-service.qmi \
     android.hardware.drm-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.security.keymint-service-qti \
-    qconfigservice \
     qcrilNrd \
     vendor.display.color@1.0-service \
     vendor.qti.camera.provider-service_64 \
-    vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.composer-service \
@@ -2433,13 +2496,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.2-service \
     vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
-    vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.qti.secure_element@1.2-service \
+    ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
     init.qcom.class_core \
@@ -2492,13 +2554,11 @@ PRODUCT_PACKAGES += \
     vendor.dpmd \
     vendor.qti.qspmhal@1.0-service \
     vendor_modprobe \
-    vppservice \
     wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
     xtwifi-client \
-    xtwifi-inet-agent \
     dpmd \
     qccsyshal@1.2-service \
     tcmd \
@@ -2508,6 +2568,8 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
     vendor.pixelworks.hardware.feature.irisfeature-service \
+    vendor.qti.esepowermanager@1.1-service \
+    vendor.qti.secure_element@1.2-service \
     irisConfig \
     occe_create \
     oplus_sensor_fb
