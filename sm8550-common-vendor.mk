@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V10-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V10-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
@@ -509,6 +510,7 @@ PRODUCT_PACKAGES += \
     libdiag \
     libdigital-dimming \
     libdisp-aba \
+    libdisplayconfig.qti \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
@@ -541,6 +543,7 @@ PRODUCT_PACKAGES += \
     libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
+    libhistogram \
     libidl \
     libintervmipc \
     libizat_client_api \
@@ -611,10 +614,10 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libpowercore \
-    libpwirisfeature_vendor \
+    libpwirisfeature \
     libpwirisfeaturehal \
     libpwirishal \
-    libpwirishalwrapper_vendor \
+    libpwirishalwrapper \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -664,6 +667,7 @@ PRODUCT_PACKAGES += \
     libqdi \
     libqdp \
     libqdpr \
+    libqdutils \
     libqesdk2_0 \
     libqesdk_manager \
     libqisl \
@@ -701,10 +705,14 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
+    libsdmcore \
+    libsdmdal \
     libsdmextension \
+    libsdmutils \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
@@ -809,6 +817,12 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.ims-V1-ndk \
+    vendor.pixelworks.hardware.display@1.0_vendor \
+    vendor.pixelworks.hardware.display@1.1_vendor \
+    vendor.pixelworks.hardware.display@1.2_vendor \
+    vendor.pixelworks.hardware.feature-V1-ndk \
+    vendor.pixelworks.hardware.feature@1.0_vendor \
+    vendor.pixelworks.hardware.feature@1.1_vendor \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -1076,6 +1090,7 @@ PRODUCT_PACKAGES += \
     libqcom_llm \
     libtransformer_lite \
     android.hardware.secure_element@1.0-impl \
+    vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
     vendor.qti.esepowermanager@1.1-impl \
     lib-virtual-modem-protos \
     libGaiaClient_vnd \
@@ -1106,12 +1121,22 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     liboplus_service \
     libosenseaidlhalclient \
+    libpwirisIoctlWrapper \
+    libpwirisPCS \
+    libpwiriscalibrate \
+    libpwirisfeature_odm \
+    libpwirishalwrapper_odm \
+    libpwirispq \
+    libpwirisservicei7 \
+    libpwirissoft \
+    libpwsoftirisPCS \
     libqti-radio-service \
     libradio-service \
     libradioapis \
     librfapis \
     librpmbengclient \
     libsecurity_event_dcs_vnd \
+    libsnapdragoncolor-pxlw \
     libsubsys-service \
     libsubsys-utils \
     libtfa98xx \
@@ -1119,6 +1144,11 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
     vendor.oplus.hardware.subsys-V5-ndk \
     vendor.oplus.hardware.subsys_radio-V9-ndk \
+    vendor.pixelworks.hardware.display@1.0 \
+    vendor.pixelworks.hardware.display@1.1 \
+    vendor.pixelworks.hardware.display@1.2 \
+    vendor.pixelworks.hardware.feature@1.0 \
+    vendor.pixelworks.hardware.feature@1.1 \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     odm_lib_rfsa_adsp_aiboost_libQnnHtpV73Skel_so \
@@ -1212,6 +1242,8 @@ PRODUCT_PACKAGES += \
     manifest_oplus_ifaa.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
+    vendor.pixelworks.hardware.display@1.2.xml \
+    vendor.pixelworks.hardware.feature.irisfeature-service.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
@@ -1235,6 +1267,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.factory@1.0-service \
     vendor.qti.hardware.limits@1.2-service \
     vendor.qti.hardware.qseecom@1.0-service \
@@ -1312,9 +1345,11 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.charger-V10-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
+    vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
     init.subsys \
+    irisConfig \
     oplus_sensor_fb \
     touchDaemon
 
